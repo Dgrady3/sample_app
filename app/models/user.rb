@@ -4,4 +4,4 @@ class User < ActiveRecord::Base
   validates :email, presence: true, length: { maximum: 255 } ,
                     format: { with: VALID_EMAIL_REGEX }
 end
-###### to-do: update tests, email more validations, finish users
+###### to-do: update tests, email more validations, finish users, update users table w frineds, add polymorphic table too
